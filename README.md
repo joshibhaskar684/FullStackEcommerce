@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+E-commerce platform built using React (frontend), Spring Boot (backend), MySQL, and Razorpay payment gateway.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# 🛒 Full-Stack E-Commerce Application
 
-In the project directory, you can run:
+![Java](https://img.shields.io/badge/Java-SpringBoot-blue)
+![React](https://img.shields.io/badge/React-Frontend-61DAFB)
+![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
+![Razorpay](https://img.shields.io/badge/Payments-Razorpay-0D96F6)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-### `npm start`
+A modern **full-stack e-commerce web application** built with **React (frontend)**, **Spring Boot (backend)**, and **Razorpay (payment integration)**.
+It provides a seamless shopping experience with **user authentication, product management, cart system, order tracking, and secure payments**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+* 🔐 **User Authentication & Authorization** (JWT)
+* 📦 **Product Catalog** with categories & search
+* 🛍️ **Shopping Cart** with add/remove/update functionality
+* 📑 **Order Management** & tracking
+* 💳 **Secure Online Payments** via Razorpay
+* 🛠️ **Admin Panel** for managing products & orders
+* 📱 **Responsive UI** for mobile & desktop
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Frontend:** React, Redux/Context API, Axios, Tailwind/Bootstrap
+**Backend:** Spring Boot, Spring Security, JPA/Hibernate, MySQL
+**Payments:** Razorpay Payment Gateway
+**Other Tools:** REST APIs, JWT Authentication, Maven
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚙️ Installation & Setup
 
-### `npm run eject`
+1. **Clone the repository**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Backend Setup**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   cd backend
+   mvn spring-boot:run
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Frontend Setup**
 
-## Learn More
+   ```bash
+   cd frontend
+   npm install
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. **Configure Razorpay API Keys** in `application.properties` (backend)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📸 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+*Add screenshots or GIFs here to showcase the UI.*
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🚀 Deployment
 
-### Making a Progressive Web App
+* Frontend can be deployed on **Vercel/Netlify**
+* Backend can be deployed on **Heroku/AWS/Render**
+* Update environment variables for **Razorpay keys** in production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions are welcome!
 
-### Deployment
+1. Fork the repo
+2. Create a new branch (`feature-branch`)
+3. Commit your changes
+4. Push & open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the **MIT License**.
+
